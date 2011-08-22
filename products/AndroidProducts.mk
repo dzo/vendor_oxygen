@@ -1,0 +1,2 @@
+PRODUCT_MAKEFILES :=   $(LOCAL_DIR)/oxygen_u8800.mk
+
