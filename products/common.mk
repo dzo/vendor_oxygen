@@ -3,7 +3,7 @@
 #
 ifdef OXYGEN_RELEASE
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=Oxygen-2.1.3
+        ro.modversion=Oxygen-2.2.1
 else
     PRODUCT_PROPERTY_OVERRIDES += \
         ro.modversion=Oxygen-TEST
