@@ -1,13 +1,13 @@
 #
 # Set ro.modversion
 #
-ifdef OXYGEN_RELEASE
+#ifdef OXYGEN_RELEASE
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=Oxygen-2.2.1
-else
-    PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=Oxygen-TEST
-endif
+        ro.modversion=Oxygen-2.2.2
+#else
+#    PRODUCT_PROPERTY_OVERRIDES += \
+#        ro.modversion=Oxygen-TEST
+#endif
 
 # Used by BusyBox
 KERNEL_MODULES_DIR:=/system/lib/modules
@@ -42,8 +42,8 @@ PRODUCT_COPY_FILES += \
     vendor/oxygen/prebuilt/etc/hosts:system/etc/hosts \
     vendor/oxygen/prebuilt/etc/terminfo/l/linux:system/etc/terminfo/l/linux \
     vendor/oxygen/prebuilt/etc/terminfo/u/unknown:system/etc/terminfo/u/unknown \
-    vendor/oxygen/prebuilt/etc/init.d/11dalviklocation:system/etc/init.d/11dalviklocation \
-    vendor/oxygen/prebuilt/etc/init.d/99complete:system/etc/init.d/99complete
+    vendor/oxygen/prebuilt/etc/init.d/99complete:system/etc/init.d/99complete \
+#    vendor/oxygen/prebuilt/etc/init.d/11dalviklocation:system/etc/init.d/11dalviklocation \
 
 # Google Apps
 $(call inherit-product, vendor/google/gapps.mk)
