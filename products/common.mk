@@ -2,8 +2,8 @@
 # Set ro.modversion
 #
 #ifdef OXYGEN_RELEASE
-    PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=Oxygen-2.2.2
+#    PRODUCT_PROPERTY_OVERRIDES += \
+#        ro.modversion=Oxygen-2.2.2
 #else
 #    PRODUCT_PROPERTY_OVERRIDES += \
 #        ro.modversion=Oxygen-TEST

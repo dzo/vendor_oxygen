@@ -16,10 +16,11 @@ PRODUCT_DEVICE := u8800
 PRODUCT_MODEL := u8800
 PRODUCT_MANUFACTURER := HUAWEI
 PRODUCT_BOARD := U8800
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=U8800 BUILD_ID=GRK39F BUILD_DISPLAY_ID=GWK74 BUILD_FINGERPRINT=google/passion/passion:2.3.6/GRK39F/189904:user/release-keys PRIVATE_BUILD_DESC="passion-user 2.3.6 GRK39F 189904 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=U8800 BUILD_ID=GWK74 BUILD_DISPLAY_ID=GWK74 BUILD_FINGERPRINT=google/passion/passion:2.3.7/GWK74/189904:user/release-keys PRIVATE_BUILD_DESC="passion-user 2.3.7 GWK74 185293 release-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.enable.managed.roaming=1 \
     ro.ril.oem.nosim.ecclist=911,112,999,000,08,118,120,122,110,119,995 \
     ro.ril.emc.mode=2 \
-    ro.modversion=Oxygen-2.3.1-u8800
+    ro.rommanager.developerid=dzo \
+    ro.modversion=Oxygen-2.3.1-u8800_r1
